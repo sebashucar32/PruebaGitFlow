@@ -1,7 +1,5 @@
 package com.sofka.curso.gitflow;
 
-import java.util.Objects;
-
 public class Persona {
     private Integer id;
     private String nombre;

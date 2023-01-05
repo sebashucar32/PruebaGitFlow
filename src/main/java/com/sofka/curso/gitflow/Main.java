@@ -1,7 +1,5 @@
 package com.sofka.curso.gitflow;
 
-import java.util.List;
-
 public class Main {
     public static void main(String[] args) {
         PersonaUseCase personas = new PersonaUseCase();
