@@ -3,9 +3,9 @@ package com.sofka.curso.gitflow;
 public class Persona {
     private Integer id;
     private String nombre;
-    private Integer sueldo;
+    private Double sueldo;
 
-    public Persona(Integer id, String nombre, Integer sueldo) {
+    public Persona(Integer id, String nombre, Double sueldo) {
         this.id = id;
         this.nombre = nombre;
         this.sueldo = sueldo;
@@ -27,11 +27,11 @@ public class Persona {
         this.nombre = nombre;
     }
 
-    public Integer getSueldo() {
+    public Double getSueldo() {
         return sueldo;
     }
 
-    public void setSueldo(Integer sueldo) {
+    public void setSueldo(Double sueldo) {
         this.sueldo = sueldo;
     }
 
