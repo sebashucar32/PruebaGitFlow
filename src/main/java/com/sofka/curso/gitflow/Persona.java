@@ -37,10 +37,6 @@ public class Persona {
 
     @Override
     public String toString() {
-        return "Persona{" +
-                "id=" + id +
-                ", nombre='" + nombre + '\'' +
-                ", sueldo=" + sueldo +
-                '}';
+        return nombre + " con Id: " + id + " Tiene un sueldo de " + sueldo;
     }
 }
