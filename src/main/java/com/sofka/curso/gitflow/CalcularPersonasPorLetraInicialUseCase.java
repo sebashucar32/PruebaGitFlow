@@ -11,7 +11,7 @@ public class CalcularPersonasPorLetraInicialUseCase {
     private static final List<Persona> personas = Data.datos();
 
     public void calcularPersonasConNombresInicialesEnS() {
-        personas.stream().filter(p -> p.getNombre().startsWith("C"))
+        personas.stream().filter(p -> p.getNombre().startsWith("S"))
                 .toList().forEach(per -> log.info(per.toString()));
     }
 }
