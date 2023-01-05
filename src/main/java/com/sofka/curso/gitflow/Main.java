@@ -10,6 +10,7 @@ public class Main {
 
         log.warning("De aqui continua el segundo caso de uso para la otra rama");
         CalcularPromediosUseCase promediosUseCase = new CalcularPromediosUseCase();
-        promediosUseCase.calcularPromedioPersonas();
+        Double promedio = promediosUseCase.calcularPromedioPersonas();
+        log.info("El promedio de las personas es de: " + promedio);
     }
 }
