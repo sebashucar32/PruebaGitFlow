@@ -11,7 +11,7 @@ public class CalcularPromediosUseCase {
 
     public Double calcularPromedioPersonas() {
         return personas.stream()
-                .map(Persona::getSueldo).toList()
-                .stream().reduce(0.0, Double::sum);
+            .mapToDouble(Persona::getSueldo)
+            .average().orElse(Double.NaN);
     }
 }
