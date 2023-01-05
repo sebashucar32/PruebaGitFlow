@@ -3,11 +3,13 @@ package com.sofka.curso.gitflow;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.logging.Logger;
 
-public class PersonaUseCase {
+public class CalcularPersonasPorLetraInicialUseCase {
     private static List<Persona> personas = null;
+    private final static Logger log = Logger.getLogger(String.valueOf(CalcularPersonasPorLetraInicialUseCase.class));
 
-    public PersonaUseCase() {
+    public CalcularPersonasPorLetraInicialUseCase() {
         personas = Arrays.asList(new Persona(1, "Sebastian", 4000),
             new Persona(2, "Juancho", 10000), new Persona(3, "Rosa", 7500),
             new Persona(4, "Santiago", 5000), new Persona(5, "Sara", 1800),
